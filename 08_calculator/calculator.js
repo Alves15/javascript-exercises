@@ -20,15 +20,27 @@ const power = function(a, b) {
   d = a * a;
             
   for (let c = 2; c < b; c++) {
-      d = d * a;
-      c++;   
+      d = d * a;   
   }
 
   return d;	          
 };
 
-const factorial = function() {
-	
+const factorial = function(a) {
+  let b = 1;
+
+	if (a === 0){
+    return 1;
+  }
+  
+  for (let i = 2; i <= a; i++){
+        b = b * i; 
+  }
+  
+  return b;
+  
+   
+
 };
 
 // Do not edit below this line
