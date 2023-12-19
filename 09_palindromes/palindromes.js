@@ -1,4 +1,7 @@
-const palindromes = function () {
+const palindromes = function (word) {       
+    let test = word;
+    let result = test.split();
+    console.log(result);
 
 };
 
