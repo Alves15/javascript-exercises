@@ -7,7 +7,9 @@ const palindromes = function (word) {
         for (i = 0; i < reversed.length; i++) {
             palin += reversed[i];
         }
-        if (word == palin){
+        palin = palin.replaceAll(/!/g,'');
+        test = test.replaceAll(/!/g,'');
+        if (test == palin){
             return true;
         }else{
             return false;
