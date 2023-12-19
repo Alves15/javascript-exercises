@@ -1,8 +1,22 @@
 const palindromes = function (word) {       
-    let test = word;
-    let result = test.split();
-    console.log(result);
+    const palindromes = function (word) {       
+        let test = word;
+        let palin = "";
+        let result = test.split("");
+        let reversed = result.reverse();
+        console.log(reversed);
+        for (i = 0; i < reversed.length; i++) {
+            palin += reversed[i];
+        }
+        if (word == palin){
+            return true;
+        }else{
+            return false;
+        }
+        
+    };
 
+    console.log(palindromes("rafa"));
 };
 
 // Do not edit below this line
