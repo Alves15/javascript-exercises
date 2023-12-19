@@ -15,8 +15,6 @@ const palindromes = function (word) {
         }
         
     };
-
-    console.log(palindromes("rafa"));
 };
 
 // Do not edit below this line
