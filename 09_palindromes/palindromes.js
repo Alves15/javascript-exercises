@@ -1,5 +1,4 @@
-const palindromes = function (word) {       
-    const palindromes = function (word) {       
+const palindromes = function (word) {             
         let test = word;
         let palin = "";
         let result = test.split("");
@@ -13,8 +12,7 @@ const palindromes = function (word) {
         }else{
             return false;
         }
-        
-    };
+ 
 };
 
 // Do not edit below this line
